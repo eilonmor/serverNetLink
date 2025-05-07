@@ -2,13 +2,13 @@
 interface SocialMedia{
   instegram: boolean;
   facebook: boolean;
-  linkdin: boolean;
-  Pinterest: boolean;
+  linkedin: boolean;
+  pinterest: boolean;
   reddit: boolean;
   snapchat: boolean;
   tiktok: boolean;
   twiter: boolean;
-  twich: boolean;
+  twitch: boolean;
   youtube: boolean;
   wechat: boolean;
   qq: boolean;
@@ -59,13 +59,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: false,
       facebook: false,
-      linkdin: true,
-      Pinterest: true,
+      linkedin: true,
+      pinterest: true,
       reddit: false,
       snapchat: true,
       tiktok: false,
       twiter: false,
-      twich: true,
+      twitch: true,
       youtube: true,
       wechat: true,
       qq: true
@@ -85,13 +85,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: true,
-      linkdin: true,
-      Pinterest: false,
+      linkedin: true,
+      pinterest: false,
       reddit: false,
       snapchat: true,
       tiktok: false,
       twiter: true,
-      twich: true,
+      twitch: true,
       youtube: true,
       wechat: false,
       qq: true
@@ -110,13 +110,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: true,
-      linkdin: false,
-      Pinterest: true,
+      linkedin: false,
+      pinterest: true,
       reddit: true,
       snapchat: false,
       tiktok: false,
       twiter: false,
-      twich: false,
+      twitch: false,
       youtube: true,
       wechat: false,
       qq: true
@@ -135,13 +135,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: false,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: true,
       snapchat: true,
       tiktok: true,
       twiter: true,
-      twich: true,
+      twitch: true,
       youtube: false,
       wechat: true,
       qq: true
@@ -160,13 +160,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: false,
       facebook: false,
-      linkdin: true,
-      Pinterest: false,
+      linkedin: true,
+      pinterest: false,
       reddit: false,
       snapchat: false,
       tiktok: false,
       twiter: true,
-      twich: true,
+      twitch: true,
       youtube: false,
       wechat: false,
       qq: false
@@ -185,13 +185,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: true,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: false,
       snapchat: true,
       tiktok: true,
       twiter: true,
-      twich: true,
+      twitch: true,
       youtube: true,
       wechat: false,
       qq: false
@@ -210,13 +210,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: false,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: false,
       snapchat: false,
       tiktok: true,
       twiter: true,
-      twich: false,
+      twitch: false,
       youtube: true,
       wechat: true,
       qq: true
@@ -235,13 +235,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: true,
       facebook: true,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: true,
       snapchat: false,
       tiktok: true,
       twiter: true,
-      twich: false,
+      twitch: false,
       youtube: false,
       wechat: false,
       qq: false
@@ -260,13 +260,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: false,
       facebook: false,
-      linkdin: true,
-      Pinterest: true,
+      linkedin: true,
+      pinterest: true,
       reddit: false,
       snapchat: true,
       tiktok: true,
       twiter: false,
-      twich: false,
+      twitch: false,
       youtube: true,
       wechat: false,
       qq: false
@@ -286,13 +286,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: false,
       facebook: true,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: false,
       snapchat: false,
       tiktok: false,
       twiter: false,
-      twich: false,
+      twitch: false,
       youtube: true,
       wechat: false,
       qq: false
@@ -311,13 +311,13 @@ export let listofUsers: UserInfluncer[] = [{
     socialMedia: {
       instegram: false,
       facebook: false,
-      linkdin: false,
-      Pinterest: false,
+      linkedin: false,
+      pinterest: false,
       reddit: true,
       snapchat: false,
       tiktok: false,
       twiter: false,
-      twich: false,
+      twitch: false,
       youtube: false,
       wechat: false,
       qq: false
