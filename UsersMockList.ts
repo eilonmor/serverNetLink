@@ -1,4 +1,5 @@
 
+const baseUrl = "http://localhost:3002/avatars/";
 interface SocialMedia{
   instegram: boolean;
   facebook: boolean;
@@ -48,6 +49,7 @@ export interface UserInfluncer{
   socialMedia: SocialMedia;
   age: number;
   sector: Sector;
+  picture?: string;
 }
 // try to create a static list and do a re render
 
@@ -74,7 +76,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: false, cooking: false},
         sports: {football: true, basketBall: false, gym: true, fitness: false},
         fashion: {blogFashion: false, model: true} 
-    }
+    },
+    picture: baseUrl + 'image1.avif'
   },
 
 {
@@ -100,7 +103,9 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: false, gril: true, vegan: false, cooking: false},
     sports: {football: true, basketBall: false, gym: false, fitness: false},
     fashion: {blogFashion: false, model: false} 
-}
+},
+picture: baseUrl + 'image2.avif'
+
   },
 {
     name: 'Jacquelyn Mitchell',
@@ -125,7 +130,9 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: false, cooking: true},
     sports: {football: true, basketBall: true, gym: true, fitness: false},
     fashion: {blogFashion: true, model: true} 
-}
+},
+picture: baseUrl + 'image3.avif'
+
   },
 {
     name: 'Robin Marks',
@@ -150,7 +157,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: false, cooking: true},
     sports: {football: false, basketBall: true, gym: true, fitness: false},
     fashion: {blogFashion: true, model: false} 
-}
+},
+picture: baseUrl + 'image4.avif'
   },
 {
     name: 'Mitchell Smitham PhD',
@@ -175,7 +183,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: false, gril: true, vegan: false, cooking: true},
     sports: {football: false, basketBall: true, gym: true, fitness: false},
     fashion: {blogFashion: false, model: true} 
-}
+},
+picture: baseUrl + 'image5.avif'
   },
 {
     name: 'Dorothy Doyle',
@@ -200,7 +209,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: false, vegan: false, cooking: false},
     sports: {football: true, basketBall: true, gym: false, fitness: false},
     fashion: {blogFashion: true, model: false} 
-}
+},
+picture: baseUrl + 'image6.avif'
   },
 {
     name: 'Matthew Stiedemann',
@@ -225,7 +235,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: true, cooking: true},
     sports: {football: false, basketBall: false, gym: true, fitness: true},
     fashion: {blogFashion: false, model: true} 
-}
+},
+picture: baseUrl + 'image7.avif'
   },
 {
     name: 'Loren Beier',
@@ -250,7 +261,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: false, gril: false, vegan: false, cooking: true},
     sports: {football: true, basketBall: true, gym: true, fitness: true},
     fashion: {blogFashion: false, model: false} 
-}
+},
+picture: baseUrl + 'image8.avif'
   },
 {
     name: 'Miss Homer Crooks',
@@ -275,7 +287,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: false, cooking: true},
     sports: {football: true, basketBall: true, gym: true, fitness: false},
     fashion: {blogFashion: true, model: true} 
-}
+},
+picture: baseUrl + 'image9.avif'
   },
 
 {
@@ -301,7 +314,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: false, cooking: true},
     sports: {football: true, basketBall: true, gym: true, fitness: false},
     fashion: {blogFashion: true, model: true} 
-}
+},
+picture: baseUrl + 'image10.avif'
   },
 {
     name: 'Dwayne Harber',
@@ -326,7 +340,8 @@ export let listofUsers: UserInfluncer[] = [{
     sector: { food: {meat: true, gril: true, vegan: true, cooking: true},
     sports: {football: true, basketBall: false, gym: true, fitness: false},
     fashion: {blogFashion: true, model: true} 
-}
+},
+picture: baseUrl + 'image11.avif'
   }]
 
 
