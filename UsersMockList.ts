@@ -1,7 +1,7 @@
 
 const baseUrl = "http://localhost:3002/avatars/";
 interface SocialMedia{
-  instegram: boolean;
+  instagram: boolean;
   facebook: boolean;
   linkedin: boolean;
   pinterest: boolean;
@@ -59,7 +59,7 @@ export let listofUsers: UserInfluncer[] = [{
     Country: 'Iran',
     city: 'Fort Annie',
     socialMedia: {
-      instegram: false,
+      instagram: false,
       facebook: false,
       linkedin: true,
       pinterest: true,
@@ -86,7 +86,7 @@ export let listofUsers: UserInfluncer[] = [{
     Country: 'Turkmenistan',
     city: 'Fort Stephanie',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: true,
       linkedin: true,
       pinterest: false,
@@ -113,7 +113,7 @@ picture: baseUrl + 'image2.avif'
     Country: 'Puerto Rico',
     city: 'Hackensack',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: true,
       linkedin: false,
       pinterest: true,
@@ -140,7 +140,7 @@ picture: baseUrl + 'image3.avif'
     Country: "Cote d'Ivoire",
     city: 'Krajcikfurt',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: false,
       linkedin: false,
       pinterest: false,
@@ -166,7 +166,7 @@ picture: baseUrl + 'image4.avif'
     Country: 'Venezuela',
     city: 'Milpitas',
     socialMedia: {
-      instegram: false,
+      instagram: false,
       facebook: false,
       linkedin: true,
       pinterest: false,
@@ -192,7 +192,7 @@ picture: baseUrl + 'image5.avif'
     Country: 'Yemen',
     city: 'Oshkosh',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: true,
       linkedin: false,
       pinterest: false,
@@ -218,7 +218,7 @@ picture: baseUrl + 'image6.avif'
     Country: 'Cook Islands',
     city: 'South Maynardburgh',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: false,
       linkedin: false,
       pinterest: false,
@@ -244,7 +244,7 @@ picture: baseUrl + 'image7.avif'
     Country: 'Haiti',
     city: 'Brendonburgh',
     socialMedia: {
-      instegram: true,
+      instagram: true,
       facebook: true,
       linkedin: false,
       pinterest: false,
@@ -270,7 +270,7 @@ picture: baseUrl + 'image8.avif'
     Country: 'Egypt',
     city: 'East Lansing',
     socialMedia: {
-      instegram: false,
+      instagram: false,
       facebook: false,
       linkedin: true,
       pinterest: true,
@@ -297,7 +297,7 @@ picture: baseUrl + 'image9.avif'
     Country: 'Cook Islands',
     city: 'Tobystad',
     socialMedia: {
-      instegram: false,
+      instagram: false,
       facebook: true,
       linkedin: false,
       pinterest: false,
@@ -323,7 +323,7 @@ picture: baseUrl + 'image10.avif'
     Country: 'Bolivia',
     city: 'Laurettastead',
     socialMedia: {
-      instegram: false,
+      instagram: false,
       facebook: false,
       linkedin: false,
       pinterest: false,
