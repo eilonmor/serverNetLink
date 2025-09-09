@@ -1,12 +1,12 @@
 import {Request, Response } from 'express'
 import express from 'express'
-import { listofUsers } from './UsersMockList';
 import cors from 'cors'
+import { listofUsers } from './UsersMockList';
+const users1 = require('./users1.json');
 import path from 'path'
 // import './db/mongoConnect'
 // import { User } from './db/mongoConnect';
 // import { UserNetLink } from './db/netLinkDbConnect';
- 
 const app = express();
 const port = 3002;
 export const serverPath = `http://localhost:${port}`;
@@ -18,10 +18,10 @@ app.get('/', (req: Request, res: Response)=> {
 });
 
 // Serve avatars statically
-app.use('/avatars', express.static(path.join(__dirname, 'rescurce')+'\\netlink'));
+app.use('/avatars', express.static(path.join(__dirname, 'rescurce', 'netlink')));
 
 app.get('/NetLink', (req: Request, res: Response)=> {
-    res.send(JSON.stringify(listofUsers))
+    res.send(JSON.stringify(users1))
 });
 
 // app.get('/sportUsers', async(req: Request, res: Response)=> {
@@ -42,6 +42,6 @@ app.get('/NetLink', (req: Request, res: Response)=> {
 
 
 app.listen(port, () => {
-    console.log(`server is raunning at ${serverPath}`);
+    console.log(`server is running at ${serverPath}`);
 });
 
